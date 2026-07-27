@@ -1,13 +1,20 @@
 {
-  "name": "backend",
+  "name": "relife-backend-new",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "RelifeNotify Node.js Backend API with Arduino integration",
+  "main": "src/server.js",
   "scripts": {
-    "dev": "nodemon"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "postgresql",
+    "arduino",
+    "iot",
+    "relifenotify"
+  ],
+  "author": "Xander Elijah B. Orallo",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
